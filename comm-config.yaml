@@ -1,6 +1,44 @@
+Twitter:
+  access_token: 'XXX-XXX'
+  access_token_secret: 'XXX'
+  consumer_key: 'XXX'
+  consumer_secret: 'XXX'
+
 Discord:
   - IncludeReplyToUser: true
     IncludeRetweet: true
     IncludeUserReply: true
     twitter_ids: ['3065618342']
-    webhook_urls: ['https://discordapp.com/api/webhooks/123456/XXXXXX'
+    webhook_urls: ['https://discordapp.com/api/webhooks/123456/XXXXXX']
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    twitter_lists:
+     - 'https://twitter.com/rokxx/lists/dota-2'
+    webhook_urls: ['https://discordapp.com/api/webhooks/123456/XXXXXX']
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    twitter_lists:
+     - 'https://twitter.com/JacobWolf/lists/league-of-legends-eu'
+     - 'https://twitter.com/JacobWolf/lists/league-of-legends-na'
+    webhook_urls:
+     - 'https://discordapp.com/api/webhooks/123456/XXXXXX'
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    twitter_lists: ['https://twitter.com/JacobWolf/lists/counter-strike-na1', 'https://twitter.com/JacobWolf/lists/counter-strike-eu1']
+    webhook_urls:
+     - 'https://discordapp.com/api/webhooks/123456/XXXXXX'
+  - location: [106.405897,10.526054,106.999159,11.027906]
+    webhook_urls: ['https://discordapp.com/api/webhooks/123456/XXXXXX']
+  - location: [105.5531,20.7885,106.1464,21.2653]
+    webhook_urls: ['https://discordapp.com/api/webhooks/123456/XXXXXX']
+  - location: [107.372125,16.288804,107.782899,16.649613]
+    webhook_urls: ['https://discordapp.com/api/webhooks/123456/XXXXXX']
+  - location: [108.005212,15.887674,108.415986,16.249221]
+    webhook_urls: ['https://discordapp.com/api/webhooks/123456/XXXXXX']
+  - track:
+     - 'python'
+    webhook_urls:
+     - 'https://discordapp.com/api/webhooks/123456/XXXXXX'
