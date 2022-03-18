@@ -1,0 +1,6 @@
+Discord:
+  - IncludeReplyToUser: true
+    IncludeRetweet: true
+    IncludeUserReply: true
+    twitter_ids: ['3065618342']
+    webhook_urls: ['https://discordapp.com/api/webhooks/123456/XXXXXX'
